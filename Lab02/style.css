@@ -1,0 +1,45 @@
+html{
+  background-color: #000;
+}
+
+body{
+  background-color: #FFF;
+  background-image: url("bg.png");
+  height: 1100px;
+}
+
+p{
+  margin-left: 100px;
+  margin-right: 100px;
+
+}
+h1 {
+  color: #CC6600;
+  text-align: center;
+  text-decoration: underline;
+  font-weight: bold;
+  font-family: "Arial Black", Gadget, sans-serif;
+}
+
+h2{
+  color: #CC6600;
+  text-align: center;
+  text-decoration: underline;
+  font-weight: bold;
+  font-family: "Arial Black", Gadget, sans-serif;
+}
+
+h3{
+  color: #CC6600;
+  text-align: center;
+  text-decoration: underline;
+  font-weight: bold;
+  font-family: "Arial Black", Gadget, sans-serif;
+}
+ul{
+  text-align: center;
+  list-style-type: circle;
+  font-weight: bold;
+  margin: 1 auto;
+
+}
