@@ -1,0 +1,14 @@
+body{
+  height: 1300px;
+}
+h1{
+  text-align: center;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+p{
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+}

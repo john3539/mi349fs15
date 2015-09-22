@@ -43,3 +43,11 @@ ul{
   margin: 1 auto;
 
 }
+
+li{
+  text-align: center;
+  list-style-type: circle;
+  font-weight: bold;
+  margin: 1 auto;
+
+}
