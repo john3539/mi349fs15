@@ -1,0 +1,76 @@
+html {
+
+  width: 1250px;
+}
+body {
+  background: #ccc;
+  margin: 0 auto;
+  font-family: Helvetica;
+  width: 1250px;
+}
+
+p.Description{
+  text-align: center;
+  font-family: Arial;
+  margin: 0 auto;
+  width: 850px;
+}
+
+div.OddSection{
+  background: #DCDCDC;
+  margin: 0 auto;
+}
+div.EvenSection{
+  background: #D3D3D3;
+  margin: 0 auto;
+}
+h1.Top{
+  text-align: center;
+  font-family: Helvetica;
+  text-decoration: underline;
+  font-size: 25px;
+  padding-bottom: 10px;
+  padding-top: 25px;
+}
+h1.Titles{
+  text-align: center;
+  font-family: Helvetica;
+  text-decoration: underline;
+  font-size: 25px;
+  padding-bottom: 15px;
+  padding-top: 10px;
+}
+h1.pad{
+  text-align: center;
+  font-family: Helvetica;
+  text-decoration: underline;
+  font-size: 25px;
+  padding-top: 15px;
+}
+
+div.personas {
+  display: inline-block;
+  width: 200px;
+  height: 275px;
+  text-align: center;
+ margin-left: 10em;
+ border-style: solid;
+ border-width: 5px;
+ padding-top: 10px;
+}
+
+div.comps {
+  padding-top: 10px;
+  display: inline-block;
+  width: 190px;
+ height: 100px;
+ margin-left: 11em;
+}
+
+p.name{
+  font-weight: bold;
+  text-align: center;
+}
+#footer {
+  height: 100px;
+}
