@@ -1,0 +1,43 @@
+.column
+{
+  width: 20%;
+  margin: 0 auto;
+  padding: 1em;
+  background: #e3e3e3;
+  display: inline-block;
+}
+
+@media (max-width: 600px)
+{
+  .column
+  {
+    display: inline-block;
+    width: 100%;
+
+  }
+}
+
+@media (min-width: 600px)
+{
+  .column
+  {
+    display: inline-block;
+    width: 40%;
+
+  }
+}
+
+@media (min-width: 1000px)
+{
+  .column
+  {
+    display: inline-block;
+    width: 20%;
+
+  }
+}
+@media
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+    /* Retina*/
+}
