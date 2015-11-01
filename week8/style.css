@@ -7,7 +7,7 @@
   display: inline-block;
 }
 
-@media (max-width: 600px)
+@media (max-width: 400px)
 {
   .column
   {
@@ -17,7 +17,7 @@
   }
 }
 
-@media (min-width: 600px)
+@media (min-width: 400px) and (max-width: 800px)
 {
   .column
   {
@@ -27,7 +27,7 @@
   }
 }
 
-@media (min-width: 1000px)
+@media (min-width: 800px ) and (max-width: 1200px)
 {
   .column
   {
