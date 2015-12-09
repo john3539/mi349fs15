@@ -1,0 +1,235 @@
+#Block
+{
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 1em;
+  position: relative;
+}
+#Resume
+{
+  display: inline-block;
+  position: relative;
+  width: 725px;
+  height: 545px;
+  background-color: #FFF;
+  margin: 0 auto;
+  margin-left: 6.2em;
+  margin-bottom: 5em;
+  border-style: solid;
+  border-width: thick;
+  border-color: #000;
+}
+
+.Job
+{
+  display: inline-block;
+  width: 450px;
+  height: 150px;
+  z-index: 5;
+  float: left;
+}
+
+.Job p
+{
+  display: block;
+  margin-top: 0.25em;
+	font-family: Impact, Charcoal, sans-serif;
+  float: left;
+  text-align: left;
+  width: 450px;
+  letter-spacing: 0.5px;
+  margin-left: 2em;
+}
+.Job ul
+{
+  display: block;
+  text-align: left;
+  float: left;
+  margin-top: 0.5em;
+  margin-left: 1.5em;
+	font-family: Impact, Charcoal, sans-serif;
+}
+
+.JobLength
+{
+  display: inline-block;
+  width: 200px;
+  height: 150px;
+  float: right;
+}
+
+.JobLength p
+{
+  text-align: right;
+  margin-top: 0.25em;
+  margin-right: 1em;
+  letter-spacing: 0.5px;
+	font-family: Impact, Charcoal, sans-serif;
+}
+
+#Extra
+{
+  display: inline-block;
+  position: relative;
+  float: right;
+  width: 315px;
+  height: 550px;
+  margin: 0 auto;
+  margin-right: 1em;
+}
+.ResumeBlock
+{
+  width: 725px;
+  height: 150px;
+  margin-top: 1em;
+  display: block;
+  margin-bottom: 3em;
+}
+.LongBlockTitle
+{
+  width: 725px;
+  height: 50px;
+  background-color: #000;
+  margin-bottom: 1em;
+}
+.LongBlockTitle p
+{
+  color: #E8E8E8;
+  font-size: 16px;
+  font-weight: bolder;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 2px;
+	font-family: Impact, Charcoal, sans-serif;
+}
+
+.BlockTitle
+{
+  width: 225px;
+  height: 40px;
+  background-color: #000;
+  margin-bottom: 1em;
+}
+
+.BlockTitle p
+{
+  color: #E8E8E8;
+  font-size: 16px;
+  font-weight: bolder;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 1px;
+	font-family: Impact, Charcoal, sans-serif;
+}
+
+.SectionTitle
+{
+  width:  725px;
+  height: 40px;
+  margin-top: 0.25em;
+  text-align: center;
+}
+
+.SectionTitle p
+{
+  color: #000;
+  font-size: 16px;
+  font-weight: bolder;
+  line-height: 40px;
+	font-family: Impact, Charcoal, sans-serif;
+  text-decoration: underline;
+}
+
+#YearEXP
+{
+  width: 225px;
+  height: 255px;
+  background-color: #FFF;
+  margin-bottom: 1em;
+  border-style: solid;
+  border-width: thick;
+  border-color: #000;
+}
+
+#YearContent
+{
+  margin-top: 0.25em;
+  height: 255px;
+  width: 205px;
+  margin: 0 auto;
+}
+#YearContent p
+{
+  text-align: left;
+  color: #000;
+  font-size: 16px;
+  font-weight: bolder;
+  line-height: 40px;
+  font-family: Impact, Charcoal, sans-serif;
+  margin-top: -0.5em;
+}
+
+#OTHER
+{
+  width: 225px;
+  height: 230px;
+  border-style: solid;
+  border-width: thick;
+  border-color: #000;
+  background-color: #FFF;
+  position: relative;
+}
+
+#OtherContent
+{
+  margin-top: 0.25em;
+  height: 230px;
+  width: 225px;
+  margin: 0 auto;
+}
+
+#OtherContent p
+{
+  text-align: left;
+  color: #000;
+  font-size: 16px;
+  font-weight: bolder;
+  line-height: 40px;
+  font-family: Impact, Charcoal, sans-serif;
+  margin-top: -0.5em;
+  margin-left: 0.75em;
+}
+
+#Download
+{
+  width: 230px;
+  height: 50px;
+  border: solid 2px #000;
+  background-color: #00A79D;
+  color: #FFF;
+  line-height: 50px;
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 28px;
+  margin-bottom: 0.5em;
+  letter-spacing: 2px;
+  text-align: center;
+  text-decoration: none;
+}
+
+#Download:hover
+{
+  width: 230px;
+  height: 50px;
+  border: solid 2px #000;
+  background-color: #FFF;
+  color: #00A79D;
+  line-height: 50px;
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 28px;
+  margin-bottom: 0.5em;
+}
+
+#DownloadLink
+{
+  text-decoration: none;
+}

@@ -1,27 +1,80 @@
 <html>
     <head>
     <meta charset = "utf-8">
-      <title>One Pager</title>
+      <title>PHILIP JOHNSON'S PORTOFOLIO</title>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <script src="final.js"></script>
       <link rel="stylesheet" type="text/css" href="style.css" media = "screen">
       <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     </head>
   <body>
-  <h1 id ="Title">Examples of Chucking a Menu</h1>
-  <nav id="nav">
-  <ul>
-    <li><a href="#">CODING EXAMPLES</a></li>
-    <li><a href="#">OTHER SKILLS</a></li>
-    <li><a href="#">RESUME</a></li>
-  </ul>
-  </nav>
+      <div id = "Container">
+        <div id = "header">
+            <a href="index.html"><div id = "HeaderLogoSpot">
+            <img id = "HeadLogo" src="images/Logo4.png" alt="some_text">
+          </div>
+          <nav id="nav">
+            <ul>
+              <li><a href="resume.html">RESUME</a></li>
+              <li><a href="other.html">OTHER SKILLS</a></li>
+              <li><a href="CSharp.html">CODING EXAMPLES</a></li>
+              <li><a href="#">GAMES</a>
+                <ul>
+                  <li><a href="Asundr.html">ASUNDR</a></li>
+                  <li><a href="SpaceCrusader.html">SPACE CRUSADER</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
 
-  <div id = "games">
-    <div id ="circles">
-      <i class="fa fa-circle" id = "c1"></i>
-      <i class="fa fa-circle" id = "c2"></i>
-      <i class="fa fa-circle" id = "c3"></i>
-      <i class="fa fa-circle" id = "c4"></i>
+    <div class="content">
+      <div class = "PageTitle">
+        <p id = "ID">WELCOME</p>
+        <p id = "IDD">My name is Philip Johnson.</p>
+      </div>
+      <div id = "AboutMe">
+        <div id = "Me">
+
+        </div>
+        <div id = "About">
+            <div id = "AboutTitle">
+                <p>ABOUT ME</p>
+            </div>
+            <div id = "AboutInfo">
+              <p> I'm a video game programmer. I have worked a variety of games from first person shooters to turn-based strategy to
+                fast-paced arcade games. I graduated from Michigan State University in the year, 2016. Also, I'm a website designer.
+              </p>
+            </div>
+        </div>
+      </div>
+      <div id = "games" onmouseover="TurnOnGameName();" onmouseout="TurnOffGameName();">
+
+        <div id ="circles">
+          <i class="fa fa-circle" id = "c1" onclick="UpdateGameScreenShot(0)"></i>
+          <i class="fa fa-circle" id = "c2" onclick="UpdateGameScreenShot(1)"></i>
+          <i class="fa fa-circle" id = "c3" onclick="UpdateGameScreenShot(2)"></i>
+          <i class="fa fa-circle" id = "c4" onclick="UpdateGameScreenShot(3)"></i>
+        </div>
+
+        <div class = "Right" onclick="Decrease();">
+          <i class="fa fa-chevron-left"></i>
+        </div>
+        <div class = "Left" onclick="Increase();">
+          <i class="fa fa-chevron-right"></i>
+        </div>
+        <div id = "GameNameBlock">
+            <p id = "GameTitle">ASUNDR</p>
+        </div>
+      </div>
     </div>
-  </div>
+    <div class = "footer">
+      <p id ="Copyright"> @2015 PHILIP JOHNSON</p>
+      <div id = "Social">
+        <a href="https://www.facebook.com/philip.johnson.56884"><img href = "#" src="images/FB.png" alt="Facebook" width="25" height="25">
+        <a href="https://www.linkedin.com/in/philip-johnson-319352110"><img src="images/in.png" alt="LinkedIn" width="25" height="25">
+      </div>
+    </div>
   </body>
 </html>
