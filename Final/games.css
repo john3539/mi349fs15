@@ -1,0 +1,211 @@
+#GameInfo
+{
+  margin: 0 auto;
+  margin-top: 1em;
+  width: 1000px;
+  height: 305px;
+  position: relative;
+}
+#GameLogo
+{
+  display: inline-block;
+  width: 400px;
+  height: 302px;
+	background-size: 100% 302px;
+  border-style: solid;
+  border-width: thin;
+  border-color: #000;
+  background-image: url("images/Asundr1.png");
+}
+#GameLogo2
+{
+  display: inline-block;
+  width: 400px;
+  height: 302px;
+	background-size: 100% 302px;
+  border-style: solid;
+  border-width: thin;
+  border-color: #000;
+  background-image: url("images/SpaceCrusader1.png");
+}
+#Role
+{
+  display: inline-block;
+  width: 595px;
+  height: 300px;
+  position: absolute;
+  float: right;
+}
+
+#GameTitleBlock
+{
+  display: block;
+  position: relative;
+  width: 595px;
+  height: 40px;
+  margin-bottom: 1em;
+  background-color: #000;
+}
+
+#GameTitleBlock p
+{
+  color: #E8E8E8;
+  font-size: 16px;
+  text-align: center;
+  font-weight: bolder;
+  line-height: 40px;
+  letter-spacing: 1px;
+	font-family: Impact, Charcoal, sans-serif;
+}
+#RoleDescription
+{
+  display: block;
+  margin-top: -0.8em;
+  position: absolute;
+  width: 595px;
+  height: 260px;
+  background-color: #E8E8E8;
+}
+
+#RoleDescription p
+{
+  font-size: 16px;
+  margin-left: 1em;
+  margin-top: 1em;
+  line-height: 30px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  font-family: Impact, Charcoal, sans-serif;
+}
+
+#Screenshots
+{
+  display: block;
+  margin: 0 auto;
+  margin-top: 0.5em;
+  border-style: solid;
+  border-width: medium;
+  border-color: #000;
+  width: 1000px;
+  height: 500px;
+	background-size: 100% 500px;
+  background-color: #000;
+  background-image: url("images/Asundr1.png");
+}
+
+#Screenshots2
+{
+  display: block;
+  margin: 0 auto;
+  margin-top: 0.5em;
+  border-style: solid;
+  border-width: medium;
+  border-color: #000;
+  width: 1000px;
+  height: 500px;
+	background-size: 100% 500px;
+  background-color: #000;
+  background-image: url("images/SpaceCrusader1.png");
+}
+
+#Screenshots3
+{
+  display: block;
+  margin: 0 auto;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+  border-style: solid;
+  border-width: medium;
+  border-color: #000;
+  width: 1000px;
+  height: 500px;
+	background-size: 100% 500px;
+  background-color: #000;
+  background-image: url("images/SpaceCrusader1.png");
+}
+
+#Trailer
+{
+  display: block;
+  margin: 0 auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  width: 1000px;
+  height: 500px;
+}
+
+.GameLeft
+{
+  display: inline-block;
+  border-style: solid;
+  border-width: thin;
+  z-index: 10;
+  border-color: #E8E8E8;
+  width:25px;
+  height: 80px;
+  float: right;
+  position: relative;
+  background: rgba(255, 255, 255, 0.35);
+  margin-top: 210px;
+  transition: background-color 0.5s ease-in-out;
+}
+.GameLeft:hover
+{
+	background: rgba(255, 255, 255, 0.8);
+}
+.GameRight
+{
+  display: inline-block;
+  border-style: solid;
+  border-width: thin;
+	z-index: 10;
+  border-color: #E8E8E8;
+	width:25px;
+	height: 80px;
+	background: rgba(255, 255, 255, 0.35);
+	margin-top: 210px;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.GameRight:hover
+{
+	background: rgba(255, 255, 255, 0.8);
+}
+
+.GameDownload
+{
+  display: block;
+  position: relative;
+  width: 1000px;
+  height: 100px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.GameLink
+{
+  display: inline-block;
+  margin-right: 1em;
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+  background-color: #E8E8E8;
+}
+.GameLink:hover
+{
+  background-color: #505050;
+}
+#Mac
+{
+	background-image: url("images/Apple-icon.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#PC
+{
+	background-image: url("images/microsoft.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
