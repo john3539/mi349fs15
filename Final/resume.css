@@ -1,3 +1,16 @@
+@media (min-width: 100px) and (max-width: 800px)
+{
+  
+}
+@media (min-width: 800px) and (max-width: 1200px)
+{
+
+}
+@media (min-width: 1200px)
+{
+
+}
+
 #Block
 {
   width: 1200px;
@@ -5,16 +18,12 @@
   margin-top: 1em;
   position: relative;
 }
+
 #Resume
 {
   display: inline-block;
   position: relative;
-  width: 725px;
-  height: 545px;
   background-color: #FFF;
-  margin: 0 auto;
-  margin-left: 6.2em;
-  margin-bottom: 5em;
   border-style: solid;
   border-width: thick;
   border-color: #000;

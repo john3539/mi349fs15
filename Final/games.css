@@ -1,17 +1,13 @@
+
 #GameInfo
 {
   margin: 0 auto;
   margin-top: 1em;
-  width: 1000px;
-  height: 305px;
   position: relative;
 }
 #GameLogo
 {
   display: inline-block;
-  width: 400px;
-  height: 302px;
-	background-size: 100% 302px;
   border-style: solid;
   border-width: thin;
   border-color: #000;
@@ -20,9 +16,6 @@
 #GameLogo2
 {
   display: inline-block;
-  width: 400px;
-  height: 302px;
-	background-size: 100% 302px;
   border-style: solid;
   border-width: thin;
   border-color: #000;
@@ -31,8 +24,6 @@
 #Role
 {
   display: inline-block;
-  width: 595px;
-  height: 300px;
   position: absolute;
   float: right;
 }
@@ -41,8 +32,6 @@
 {
   display: block;
   position: relative;
-  width: 595px;
-  height: 40px;
   margin-bottom: 1em;
   background-color: #000;
 }
@@ -62,17 +51,13 @@
   display: block;
   margin-top: -0.8em;
   position: absolute;
-  width: 595px;
-  height: 260px;
   background-color: #E8E8E8;
 }
 
 #RoleDescription p
 {
-  font-size: 16px;
   margin-left: 1em;
   margin-top: 1em;
-  line-height: 30px;
   font-weight: bolder;
   letter-spacing: 1px;
   font-family: Impact, Charcoal, sans-serif;
@@ -93,21 +78,6 @@
   background-image: url("images/Asundr1.png");
 }
 
-#Screenshots2
-{
-  display: block;
-  margin: 0 auto;
-  margin-top: 0.5em;
-  border-style: solid;
-  border-width: medium;
-  border-color: #000;
-  width: 1000px;
-  height: 500px;
-	background-size: 100% 500px;
-  background-color: #000;
-  background-image: url("images/SpaceCrusader1.png");
-}
-
 #Screenshots3
 {
   display: block;
@@ -117,9 +87,6 @@
   border-style: solid;
   border-width: medium;
   border-color: #000;
-  width: 1000px;
-  height: 500px;
-	background-size: 100% 500px;
   background-color: #000;
   background-image: url("images/SpaceCrusader1.png");
 }
@@ -130,8 +97,6 @@
   margin: 0 auto;
   margin-top: 1em;
   margin-bottom: 1em;
-  width: 1000px;
-  height: 500px;
 }
 
 .GameLeft
@@ -141,12 +106,9 @@
   border-width: thin;
   z-index: 10;
   border-color: #E8E8E8;
-  width:25px;
-  height: 80px;
   float: right;
   position: relative;
   background: rgba(255, 255, 255, 0.35);
-  margin-top: 210px;
   transition: background-color 0.5s ease-in-out;
 }
 .GameLeft:hover
@@ -208,4 +170,244 @@
 	background-image: url("images/microsoft.png");
 	background-size: cover;
 	background-repeat: no-repeat;
+}
+
+@media (min-width: 100px) and (max-width: 800px)
+{
+  #Trailer
+  {
+    width: 500px;
+    height: 275px;
+  }
+  #movie
+  {
+    width: 500px;
+    height: 275px;
+  }
+  #Role
+  {
+    display: inline-block;
+    width: 225px;
+    height: 300px;
+    position: absolute;
+    float: right;
+  }
+  .GameLeft
+  {
+    width:25px;
+    height: 80px;
+    margin-top: 210px;
+  }
+  .GameRight
+  {
+    width:25px;
+    height: 80px;
+    margin-top: 210px;
+  }
+  #Screenshots
+  {
+    width: 500px;
+    height: 275px;
+  	background-size: 100% 275px;
+  }
+  #Screenshots3
+  {
+    width: 500px;
+    height: 275px;
+  	background-size: 100% 275px;
+  }
+  #GameTitleBlock
+  {
+    width: 320px;
+    height: 40px;
+  }
+  #RoleDescription
+  {
+    width: 320px;
+    height: 132px;
+  }
+  #RoleDescription p
+  {
+    line-height: 10px;
+    font-size: 10px;
+  }
+  #GameLogo
+  {
+    width: 175px;
+    height: 175px;
+    background-size: 100% 175px;
+  }
+  #GameLogo2
+  {
+    width: 175px;
+    height: 175px;
+    background-size: 100% 175px;
+  }
+  #GameInfo
+  {
+    width: 500px;
+    height: 250px;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1200px)
+{
+  #Trailer
+  {
+    width: 750px;
+    height: 350px;
+  }
+  #movie
+  {
+    width: 750px;
+    height: 350px;
+  }
+  #Role
+  {
+    display: inline-block;
+    width: 365px;
+    height: 300px;
+    position: absolute;
+    float: right;
+  }
+  #RoleDescription
+  {
+    width: 495px;
+    height: 208px;
+  }
+
+  #GameTitleBlock
+  {
+    width: 495px;
+    height: 40px;
+  }
+
+  #RoleDescription p
+  {
+    line-height: 20px;
+    font-size: 14px;
+  }
+  .GameLeft
+  {
+    width:25px;
+    height: 80px;
+    margin-top: 210px;
+  }
+  .GameRight
+  {
+  	width:25px;
+  	height: 80px;
+  	margin-top: 210px;
+  }
+  #Screenshots
+  {
+    width: 750px;
+    height: 350px;
+  	background-size: 100% 350px;
+  }
+  #Screenshots3
+  {
+    width: 750px;
+    height: 350px;
+  	background-size: 100% 350px;
+  }
+
+  #GameLogo
+  {
+    width: 250px;
+    height: 250px;
+    background-size: 100% 302px;
+  }
+  #GameLogo2
+  {
+    width: 250px;
+    height: 250px;
+    background-size: 100% 250px;
+  }
+  #GameInfo
+  {
+    width: 750px;
+    height: 250px;
+  }
+
+}
+
+@media (min-width: 1200px)
+{
+  #Trailer
+  {
+    width: 1000px;
+    height: 500px;
+  }
+  #movie
+  {
+    width: 1000px;
+    height: 500px;
+  }
+  #Role
+  {
+    display: inline-block;
+    width: 595px;
+    height: 300px;
+    position: absolute;
+    float: right;
+  }
+  #RoleDescription
+  {
+    width: 595px;
+    height: 260px;
+  }
+
+  #RoleDescription p
+  {
+    line-height: 40px;
+    font-size: 16px;
+  }
+  .GameLeft
+  {
+    width:25px;
+    height: 80px;
+    margin-top: 210px;
+  }
+  .GameRight
+  {
+    width:25px;
+    height: 80px;
+    margin-top: 210px;
+  }
+  #Screenshots
+  {
+    width: 1000px;
+    height: 500px;
+  	background-size: 100% 500px;
+  }
+  #Screenshots3
+  {
+    width: 1000px;
+    height: 500px;
+  	background-size: 100% 500px;
+  }
+  #GameLogo
+  {
+    width: 400px;
+    height: 302px;
+  	background-size: 100% 302px;
+  }
+  #GameLogo2
+  {
+    width: 400px;
+    height: 302px;
+    background-size: 100% 302px;
+  }
+  #GameInfo
+  {
+    width: 1000px;
+    height: 305px;
+  }
+  #GameTitleBlock
+  {
+    width: 595px;
+    height: 40px;
+  }
+
 }
