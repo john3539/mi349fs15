@@ -143,7 +143,7 @@ body{
   {
     width: 93%;
     margin-top: 1em;
-    font-size: 12px;
+    font-size: 10px;
   }
   #games
   {
@@ -346,6 +346,7 @@ body{
   {
     width: 93%;
     margin-top: 1em;
+    font-size: 14px;
   }
   #games
   {
@@ -551,6 +552,7 @@ body{
   {
   	width: 93%;
   	margin-top: 1em;
+    font-size: 16px;
   }
 
   #games
