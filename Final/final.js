@@ -1,5 +1,5 @@
-var GameScreenShot1 = ["url('images/Asundr1.png')" , "url('images/Fight.png')" , "url('images/Link.png')",  "url('images/flash.png')" ];
-var GameScreenShot2 = ["url('images/SpaceCrusader1.png')" , "url('images/teamCreation.png')" , "url('images/tutorial.png')" , "url('images/zed.png')" ];
+var GameScreenShot1 = ["url('images/Asundr1.png')" , "url('images/Fight.jpg')" , "url('images/Link.jpg')",  "url('images/flash.jpg')" ];
+var GameScreenShot2 = ["url('images/SpaceCrusader1.jpg')" , "url('images/teamCreation.jpg')" , "url('images/tutorial.jpg')" , "url('images/zed.jpg')" ];
 var GameIndex = 0;
 
 function Decrease()
