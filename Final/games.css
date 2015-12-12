@@ -71,11 +71,9 @@
   border-style: solid;
   border-width: medium;
   border-color: #000;
-  width: 1000px;
-  height: 500px;
-	background-size: 100% 500px;
   background-color: #000;
   background-image: url("images/Asundr1.png");
+	transition: background-image 1s ease-in-out;
 }
 
 #Screenshots3
@@ -89,6 +87,7 @@
   border-color: #000;
   background-color: #000;
   background-image: url("images/SpaceCrusader1.jpg");
+	transition: background-image 1s ease-in-out;
 }
 
 #Trailer
